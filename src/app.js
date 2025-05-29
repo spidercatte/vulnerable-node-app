@@ -55,3 +55,5 @@ app.listen(port, () => {
     console.log('__proto__[isAdmin]=true&username=hacker&password=pwned');
     console.log('Or using dot notation: constructor.prototype.isAdmin=true');
 });
+
+module.exports = app; // Export the app for testing

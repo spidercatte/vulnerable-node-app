@@ -4,12 +4,17 @@
   "description": "A simple Node.js app demonstrating a vulnerable library (qs)",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "qs": "5.2.1" 
+    "qs": "5.2.1"
   },
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
 }
